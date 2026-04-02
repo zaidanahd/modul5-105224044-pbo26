@@ -28,4 +28,4 @@ public class RekeningBank {
     public String getNomorRekening() {
         return nomorRekening;
     }
-}
+} 
