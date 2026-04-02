@@ -34,20 +34,19 @@ public class Karyawan {
         if (gajiPokokAwal >= 0) {
             this.gajiPokok = gajiPokokAwal;
         } else {
-            this.gajiPokok = 0;
             System.out.println("Saldo awal gaboleh negatif.");
         }
     }
 
     public void setdepartemen(String departemen){
-        this.departemen = departemen;
+        this.departemen = departemen ;
     }
 
     public void settampilkanDataKaryawan(){
         
-        System.out.println("123456");
-        System.out.println("zaidan");
-        System.out.println("5000000");
-        System.out.println("AcademyUP");
+        System.out.println(this.idKaryawan);
+        System.out.println(this.nama);
+        System.out.println(this.gajiPokok);
+        System.out.println(this.departemen);
     }
 }
