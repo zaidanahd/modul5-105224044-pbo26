@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-     Mahasiswa mhs = new Mahasiswa();
+     Karyawan mhs = new Karyawan();
 
      mhs.nama = "zaidan";
      //mhs.nim = "105224";

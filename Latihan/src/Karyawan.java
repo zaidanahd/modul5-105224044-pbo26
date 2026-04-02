@@ -39,6 +39,10 @@ public class Karyawan {
         }
     }
 
+    public void setdepartemen(String departemen){
+        this.departemen = departemen;
+    }
+
     public void settampilkanDataKaryawan(){
         
         System.out.println("123456");
