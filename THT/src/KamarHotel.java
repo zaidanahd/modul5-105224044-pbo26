@@ -43,7 +43,7 @@ public class KamarHotel {
 
     // Setter dengan validasi ketat 
     public void setTipeKamar(String tipe) {
-        if (tipe.equalsIgnoreCase("Reguler") || tipe.equalsIgnoreCase("Premium") || tipe.equalsIgnoreCase("Gold")) {
+        if (tipe.equalsIgnoreCase("Reguler") || tipe.equalsIgnoreCase("Premium") || tipe.equalsIgnoreCase("Suite")) {
             this.tipeKamar = tipe;
         } else {
             System.out.println("Peringatan: Tipe '" + tipe + "' tidak valid. Otomatis diatur ke 'Reguler'.");
